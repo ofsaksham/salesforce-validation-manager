@@ -109,15 +109,15 @@ Changes are reflected instantly inside Salesforce.
 
 # Screenshots
 
-## Login Page
-
-![Login Page](screenshots/login_page.png)
-
----
-
 ## Home Page
 
 ![Home Page](screenshots/Home_page.png)
+
+---
+
+## Login Page
+
+![Login Page](screenshots/login_page.png)
 
 ---
 
@@ -232,8 +232,8 @@ salesforce-validation-manager
 │   └── package.json
 │
 ├── screenshots
-│   ├── login_page.png
 │   ├── Home_page.png
+│   ├── login_page.png
 │   ├── rules-loaded.png
 │   ├── Disabled-page.png
 │   ├── Enabled-page.png
