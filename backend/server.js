@@ -121,7 +121,7 @@ app.get("/callback", async (req, res) => {
     ${userEmail}
     </div>
 
-    <a class="btn" href="http://localhost:3000">
+    <a class="btn" href="https://salesforce-validation-manager-frontend.onrender.com">
     Go To Validation Manager
     </a>
 
@@ -133,7 +133,7 @@ app.get("/callback", async (req, res) => {
 
     <script>
     setTimeout(() => {
-      window.location.href = "http://localhost:3000";
+      window.location.href = "https://salesforce-validation-manager-frontend.onrender.com";
     }, 3000);
     </script>
 

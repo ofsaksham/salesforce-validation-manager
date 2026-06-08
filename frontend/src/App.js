@@ -7,13 +7,13 @@ function App() {
   const [pendingChanges, setPendingChanges] = useState([]);
 
   const loginSalesforce = () => {
-    window.location.href = "http://localhost:5000/auth/login";
+    window.location.href = "https://salesforce-validation-manager-w3it.onrender.com/auth/login";
   };
 
   const getRules = async () => {
     try {
       const res = await axios.get(
-        "http://localhost:5000/validation-rules"
+        "https://salesforce-validation-manager-w3it.onrender.com/validation-rules"
       );
 
       setRules(res.data);
@@ -86,7 +86,7 @@ function App() {
 
       for (const rule of pendingChanges) {
         await axios.post(
-          "http://localhost:5000/toggle-rule",
+          "https://salesforce-validation-manager-w3it.onrender.com/toggle-rule",
           {
             ruleName: rule.ValidationName,
             active: rule.Active,
