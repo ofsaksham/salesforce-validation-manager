@@ -2,6 +2,16 @@
 
 A Salesforce administration tool built using **React.js**, **Node.js**, **Express.js**, **JSForce**, **Salesforce Tooling API**, and **Salesforce Metadata API**.
 
+## Demo Video
+
+🎥 **Project Demonstration**
+
+Watch the complete project demo here:
+
+https://drive.google.com/file/d/1qQinpADC4gcLAbdO7cGMlH6AEjcX66TE/view?usp=sharing
+
+---
+
 ## Assignment Objective
 
 Build a web application that connects with Salesforce using OAuth 2.0 and allows administrators to manage Validation Rules directly from a custom interface. The application fetches validation rules using Salesforce APIs and enables users to activate or deactivate them directly from the web application.
@@ -272,8 +282,7 @@ B.Tech Computer Science Engineering
 
 GitHub: https://github.com/ofsaksham
 
-Repository:
-https://github.com/ofsaksham/salesforce-validation-manager
+Repository: https://github.com/ofsaksham/salesforce-validation-manager
 
 ---
 
